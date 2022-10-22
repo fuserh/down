@@ -29,17 +29,23 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+      - name: github-actions-nodejs
+        # You may pin to the exact commit or the version.
+        # uses: thonatos/github-actions-nodejs@50c6667f26d2aaa41206e1d43c58682913ad6d71
+        uses: thonatos/github-actions-nodejs@v0.1.1
       # Runs a set of commands using the runners shell
       - name: Run php work
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          url=$(cat url.txt)
-          mkdir aaa
-          cd aaa
-          curl -O "${url}" 
+          # url=$(cat url.txt)
+          # mkdir aaa
+          # cd aaa
+          # curl -O "${url}" 
+          npm run build
+          
       - name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
         uses: actions/upload-artifact@v2
         with:
           name: build_output
-          path: aaa
+          path: ./

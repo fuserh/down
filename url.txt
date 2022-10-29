@@ -1,1 +1,1 @@
-https://udomain.dl.sourceforge.net/project/vcxsrv/vcxsrv/1.20.14.0/vcxsrv-64.1.20.14.0.installer.exe
+https://mirror.lagoon.nc/kali-images/kali-2022.3/kali-linux-2022.3-live-amd64.iso

@@ -1,1 +1,1 @@
-https://mirror.lagoon.nc/kali-images/kali-2022.3/kali-linux-2022.3-live-amd64.iso
+https://raw.githubusercontent.com/EXALAB/Anlinux-Resources/master/Rootfs/Kali/armhf/kali-rootfs-armhf.tar.xz

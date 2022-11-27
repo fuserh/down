@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/EXALAB/Anlinux-Resources/master/Rootfs/Kali/armhf/kali-rootfs-armhf.tar.xz
+https://qemu.weilnetz.de/w64/qemu-w64-setup-20221123.exe

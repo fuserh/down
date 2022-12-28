@@ -1,1 +1,1 @@
-https://qemu.weilnetz.de/w64/qemu-w64-setup-20221123.exe
+https://gffice.github.io/tordata/torbrowser-install-win64-11.5.7_zh-CN.exe
